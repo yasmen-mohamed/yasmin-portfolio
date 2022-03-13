@@ -1,0 +1,303 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    overflow-x: hidden; 
+}
+.min-color
+{
+    color: #f5b535;
+    /* color: #da2c38; */
+    /* color: tomato; */
+}
+.grayColor
+{
+    background-color: rgb(168, 167, 167);
+}
+.grayColor2
+{
+    background-color: #aaa;
+}
+/*Start Btn Up*/
+#btnUp
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99999;
+    background-color: #f5b535;
+    /* background-color: #da2c38; */
+    display: none;
+}
+/*End Btn Up*/
+
+/*Start NAVBAR*/
+.navbar-dark .navbar-brand
+{
+    /* color: #f5b535 !important; */
+    color: #f5b535 !important;
+    font-size: 1.5rem !important;
+    font-weight: 500 !important;
+}
+nav a
+{
+    color: #fff !important;
+    font-size: 1.15rem;
+}
+.navbar-nav li :hover
+{
+    /* color: #f5b535 !important; */
+    color: #f5b535 !important;
+}
+#main-nav
+{
+    transition: background-color 2s , padding 2s;
+}
+/*End NAVBAR*/
+
+/*Start Header*/
+header
+{
+    background-image: url(../images/10.webp);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.header-overLayer
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.header-content h2
+{
+    font-size: 3.8rem;
+}
+#header h1
+{
+    font-size: 3rem;
+    margin-left: 5rem;
+}
+.header-overLayer i
+{
+    padding: 10px 10px;
+    font-size: 30px;
+    color: #fff;
+    transition: all 0.4s;
+}
+.fa-linkedin:hover
+{
+    /* color: #f5b535; */
+    color: #f5b535;
+}
+.fa-github:hover
+{
+    /* color: #f5b535; */
+    color: #f5b535;
+}
+/*End Header*/
+
+/*Start About Me*/
+.about h2
+{
+    font-size: 3.5rem;
+    font-weight: 600;
+    position: relative;
+}
+.about h2::before
+{
+    content: "";
+    width: 7rem;
+    height: 3px;
+    background-color: #f5b535;
+    position: absolute;
+    bottom: 20%;
+    left: 38%;
+}
+/* .about-img
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+.about-content
+{
+    font-size: 20px;
+    /* line-height: 26px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-img img
+{
+    height: 80%;
+    border-radius: 15px;
+}
+/* .about-content
+{
+    margin-top: 1.2rem;
+} */
+.about-content p
+{
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
+/*End About Me*/
+
+/*Start Skills*/
+#mySkills h2
+{
+    font-size: 3.5rem;
+    font-weight: 600;
+    position: relative;
+}
+#mySkills h2::before
+{
+    content: "";
+    width: 6.2rem;
+    height: 3px;
+    background-color: #f5b535;
+    position: absolute;
+    bottom: 20%;
+    left: 39%;
+}
+.skillsItem
+{
+    border: solid 2px #ddd;
+    border-radius: 20%;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.skillLayer
+{
+    background-color: #f5b535;
+    /* background-color: #da2c38; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 50%;
+    position: absolute;
+    top: 88%;
+    left: 0;
+    right: 0;
+    transition: all 1s;
+}
+.skillsItem:hover .skillLayer
+{
+    top: 50%;
+}
+.mquiry
+{
+    height: 95%;
+}
+.skillsItem h6
+{
+    font-size: 1.2rem;
+    transition: all 0.4s;
+}
+.skillLayer h6:hover
+{
+    color: #fff;
+}
+/*End Skills*/
+
+/*Start Portfolio*/
+#portfolio h2
+{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.portfolio-item 
+{
+    height: 20rem;
+    
+    /* border: solid 2px red !important; */
+}
+.portfolioOverLayer
+{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    background-color: rgba(245, 181, 53, 0.7);
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 1s;
+}
+.portfolio-item:hover .portfolioOverLayer
+{
+    opacity: 1;
+    transform: translateY(0%);
+}
+.portfoilo-icons i
+{
+    padding: 10px 10px;
+    font-size: 30px;
+    color: black;
+}
+.fa-eye:hover
+{
+    color: #fff;
+}
+#portfolio .fa-github:hover 
+{
+    color: #fff;
+}
+/*End Portfolio*/
+
+
+/*Start Contact Me*/
+.contactMe
+{
+    background-color: #f5b535;
+    /* background-color: #da2c38; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.contact-item 
+{
+    border: solid 2px black;
+    transition: all 1s;
+    cursor: pointer;
+    color: black;
+}
+.contact-item:hover 
+{
+    transform: translateY(-15px);
+    background-color: black;
+    /* color: #f5b535 !important; */
+}
+.contact-item:hover i
+{
+    /* color: #f5b535; */
+    color: #fff;
+}
+.fa-mobile
+{
+    padding: 10px 10px;
+    font-size: 30px;
+    color: black;
+}
+.fa-google
+{
+    padding: 10px 10px;
+    font-size: 30px;
+    color: black;
+}
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+  @media  screen and (max-width:600px) {
+      .contactMe .contact-item i {
+        /* background-color: aqua; */
+        font-size: 17px;
+      }
+      
+  }
+/*End Contact Me*/

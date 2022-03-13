@@ -64,3 +64,21 @@ $("a[href^='#']").click(function(eventInfo){//Lma 2dos 3la Ae link goah href wby
     $("html,body").animate({scrollTop:sectionOffset} , 2000);//ab3d 3n scrollTop 3la 2d bo3doh
 
 } )
+
+//liading screen
+$(document).ready(function()
+{
+    $("#loading").fadeOut(2000);
+    $("body").css("overflow","auto");
+
+    // //typed.js
+    // var typed = new Typed('.element', {
+    //     // Waits 1000ms after typing "First"
+    //     strings: ['Front-end Developer ^3000', 'rooooot'],
+    //     loopCount: Infinity,
+    //     typeSpeed: 50,
+    //     showCursor: true,
+    //     cursorChar: '|',
+    //     autoInsertCss: true,
+    //   });
+})

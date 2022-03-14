@@ -65,20 +65,20 @@ $("a[href^='#']").click(function(eventInfo){//Lma 2dos 3la Ae link goah href wby
 
 } )
 
-//liading screen
+//loading screen
 $(document).ready(function()
 {
     $("#loading").fadeOut(2000);
     $("body").css("overflow","auto");
 
-    // //typed.js
-    // var typed = new Typed('.element', {
-    //     // Waits 1000ms after typing "First"
-    //     strings: ['Front-end Developer ^3000', 'rooooot'],
-    //     loopCount: Infinity,
-    //     typeSpeed: 50,
-    //     showCursor: true,
-    //     cursorChar: '|',
-    //     autoInsertCss: true,
-    //   });
+    //////type.js
+    var typed = new Typed('.element', {
+        strings: [
+            'Front-end Developer',
+            'Freelancer'
+        ],
+        typeSpeed: 70,
+        backSpeed: 70,
+        loop: true
+      });
 })

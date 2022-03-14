@@ -273,6 +273,7 @@ header
     border: solid 2px #ddd;
     border-radius: 20%;
     cursor: pointer;
+    height: 12rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 .skillLayer
@@ -342,11 +343,12 @@ header
     font-size: 30px;
     color: black;
 }
-.fa-eye:hover
+
+#portfolio .fa-github:hover 
 {
     color: #fff;
 }
-#portfolio .fa-github:hover 
+#portfolio .fa-eye:hover
 {
     color: #fff;
 }

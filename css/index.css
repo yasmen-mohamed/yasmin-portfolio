@@ -201,6 +201,16 @@ header
     /* color: #f5b535; */
     color: #f5b535;
 }
+@media only screen and (max-width: 600px) {
+    .header-content h2,.header-icons {
+      margin-left: 10px !important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .header-content h1 {
+      margin-left: 10px !important;
+    }
+  }
 /*End Header*/
 
 /*Start About Me*/

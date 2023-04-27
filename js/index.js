@@ -75,7 +75,8 @@ $(document).ready(function()
     var typed = new Typed('.element', {
         strings: [
             'Front-end Developer',
-            'Freelancer'
+            'Freelancer',
+            'Programmin Instructor'
         ],
         typeSpeed: 70,
         backSpeed: 70,

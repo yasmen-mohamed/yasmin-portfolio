@@ -76,7 +76,7 @@ $(document).ready(function()
         strings: [
             'Front-end Developer',
             'Freelancer',
-            'Programmin Instructor'
+            'Programming Instructor'
         ],
         typeSpeed: 70,
         backSpeed: 70,
